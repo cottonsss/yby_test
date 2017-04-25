@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="ko"><head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="http://image.yeoboya.com/imgs/new_wedding/mobile/img/favicon_16.ico" type="image/x-icon">
+<link rel="icon" href="http://image.yeoboya.com/imgs/new_wedding/mobile/img/favicon_16.ico" type="image/x-icon">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="ALL">
+<meta name="robots" content="index,follow">
+<meta name="revisit-after" content="1 days">
+<meta name="Subject" content="여보야">
+<meta name="description" content="결혼, 재혼, 평생 배우자를 찾는 스마트한 방법, 모바일 다운로드 제공">
+<meta name="keywords" content="여보야, yeoboya, 결혼, 재혼">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="HandheldFriendly" content="true">
+<meta name="mobile-web-app-capable" content="yes">
+<title>여보야</title>
+<link href="http://m.yeoboya.com/_global/css/webfont.min2.css" rel="stylesheet" type="text/css">
+<link href="http://m.yeoboya.com/_global/css/default.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body{position:absolute; width:100%; height:100%; background:#fff; letter-spacing:-0.5px; overflow:hidden;}
+    
+/* 공통레이아웃 */
+.wrap_input_info {position:relative; height:100%; text-align:center;}
+.wrap_input_info h3.input_info_tit {margin:25px 0 15px 0; font-size:17px; font-weight:bold; letter-spacing:-1px; color:#363636;}
+.wrap_input_info .input_info_txt {position:relative; margin:25px 0 20px 0; font-size:14px; line-height:20px; color:#363636;}
+.wrap_input_info .box_slct {position:relative; height:auto; margin:0 20px;}
+
+    .input_nick{position:relative; height:auto; margin:0 20px; margin-bottom:8px;}
+    .input_nick input{width:100%; height:auto; padding:9.5px 10px; border:1px solid #c2c2c2; border-radius:5px; font-size:13px; line-height:13px; color:#575757; box-sizing:border-box; outline:none;}
+    .input_nick p{padding:4px 0 0 4px; font-size:13px; color:#575757; text-align:left;}
+    .input_nick p.color_g{font-weight:700; color:#254d29;}
+    .input_nick p.color_r{font-weight:700; color:#d00303;}
+    
+    
+.box_slct .slct_2 {position:relative; width:100%; height:38px; margin-bottom:8px;}
+.box_slct .slct_2 span {display:none;}
+.box_slct .slct_2 .slct_region select {width:100%; height:38px; padding:0 30px 0 14px; border:1px solid #c2c2c2; border-radius:5px; outline:none; background:url('http://image.yeoboya.com/imgs//new_wedding/mobile/new_login/btn_slct2.png') 94% 50% no-repeat; background-size:8px 6px; color:#575757; font-size:13px; box-sizing:border-box; appearance:none;-webkit-appearance:none; -o-appearance:none; -moz-appearance:none;}
+.box_slct .slct_2 .slct_region select:active {border:1px solid #b2b0b0;}
+.slct_2 .slct_region_1 {float:left; width:48%;}
+.slct_2 .slct_region_2 {float:right; width:48%;}
+    
+.rgst_btn {position:relative; margin:0 20px; padding:12px 0 11px 0; background:#f6d627; border-radius:5px; color:#362c2c; font-size:16px; font-weight:bold; line-height:19px; letter-spacing:-1px;}
+.rgst_btn:active {position:relative; top:1px; box-shadow:0px 0px 5px 2px rgba(0,117,255,.3); -webkit-box-shadow:0px 0px 5px 2px rgba(0,117,255,.3); -moz-box-shadow:0px 0px 5px 2px rgba(0,117,255,.3);}
+.rgst_btn_active {position:relative; top:1px; box-shadow:0px 0px 5px 2px rgba(0,117,255,.3); -webkit-box-shadow:0px 0px 5px 2px rgba(0,117,255,.3); -moz-box-shadow:0px 0px 5px 2px rgba(0,117,255,.3);}
+
+/* 공통레이아웃 */
+    
+/* 추가정보입력폼(네이버용) */
+.slct_nv_year {position:relative; width:100%; height:38px; margin-bottom:8px;}
+.slct_nv_year span {display:none;}
+.slct_nv_year select {width:100%; height:38px; padding:0 30px 0 14px; border:1px solid #c2c2c2; border-radius:5px; outline:none; background:url('http://image.yeoboya.com/imgs//new_wedding/mobile/new_login/btn_slct2.png') 97% 50% no-repeat; background-size:8px 6px; color:#575757; font-size:13px; box-sizing:border-box; appearance:none;-webkit-appearance:none; -o-appearance:none; -moz-appearance:none;}
+.slct_nv_year select:active {border:1px solid #b2b0b0;}
+/* 추가정보입력폼(네이버용) */
+/* 추가정보입력폼(카카오용) */
+.slct_1 {position:relative; width:100%; height:38px; margin-bottom:8px;}
+.slct_1 .slct_kko_year {float:left; width:48%;}
+.slct_1 .slct_kko_year span {display:none;}
+.slct_1 .slct_kko_year select {width:100%; height:38px; padding:0 30px 0 14px; border:1px solid #c2c2c2; border-radius:5px; outline:none; background:url('http://image.yeoboya.com/imgs//new_wedding/mobile/new_login/btn_slct2.png') 94% 50% no-repeat; background-size:8px 6px; color:#46526c; font-size:13px; box-sizing:border-box; appearance:none;-webkit-appearance:none; -o-appearance:none; -moz-appearance:none;}
+.slct_1 .slct_kko_year select:active {border:1px solid #b2b0b0;}
+
+.slct_1 .slct_kko_sex {float:right; width:48%;}
+.slct_1 .slct_kko_sex .btn_radius {border-radius:16px;}
+.slct_1 .slct_kko_sex a.kko_man_btn {float:left; width:63px; height:38px; background:url('http://image.yeoboya.com/imgs//new_wedding/mobile/new_login/btn_man_off.png') no-repeat; background-size:63px 38px;}
+.slct_1 .slct_kko_sex a.kko_man_btn:active, .slct_1 .slct_sex a.man_btn:visited {position:relative; background:url('http://image.yeoboya.com/imgs//new_wedding/mobile/new_login/btn_man_on.png') no-repeat; background-size:63px 38px;}
+.slct_1 .slct_kko_sex a.kko_man_btn_active {position:relative; background:url('http://image.yeoboya.com/imgs//new_wedding/mobile/new_login/btn_man_on.png') no-repeat; background-size:63px 38px;}
+.slct_1 .slct_kko_sex a.kko_woman_btn {float:right; width:63px; height:38px; background:url('http://image.yeoboya.com/imgs//new_wedding/mobile/new_login/btn_woman_off.png') no-repeat; background-size:63px 38px;}
+.slct_1 .slct_kko_sex a.kko_woman_btn:active, .slct_1 .slct_sex a.woman_btn:visited {position:relative; background:url('http://image.yeoboya.com/imgs//new_wedding/mobile/new_login/btn_woman_on.png') no-repeat; background-size:63px 38px;}
+.slct_1 .slct_kko_sex a.kko_woman_btn_active {position:relative; background:url('http://image.yeoboya.com/imgs//new_wedding/mobile/new_login/btn_woman_on.png') no-repeat; background-size:63px 38px;}
+
+@media (min-width:360px) {
+.slct_1 .slct_kko_year {width:48%;}
+.slct_1 .slct_kko_sex {width:48%;}
+}
+@media (min-width:450px) {
+.slct_1 .slct_kko_sex a.kko_man_btn {position:absolute; right:85px;}
+.slct_1 .slct_kko_sex a.kko_man_btn:active, .slct_1 .slct_sex a.man_btn:visited {position:absolute; right:85px;}
+.slct_1 .slct_kko_sex a.kko_man_btn_active {position:absolute; right:85px;}
+}
+/* 추가정보입력폼(카카오용) */
+   
+/*-------- 입력값 없는 경우 --------*/
+.slct_none input, .slct_none select{border:1px solid #e29999!important; background-color:rgba(255, 0, 0, 0.1)!important;}
+.warn_mentbox{position:relative; display:block; margin:0 24px; padding-bottom:10px; font-size:13px; font-weight:700; color:#d00303; line-height:13px; text-align:left;}/* 경고멘트 */
+    
+</style>
+</head>
+<body>
+
+ <header>
+        <a href="#" class="btn_back"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_back.jpg" width="30" height="31" alt="뒤로"></a>
+        <p class="title_header font_m">카카오아이디로 로그인</p>
+</header>
+    
+<div class="wrap_input_info">
+    <h3 class="input_info_tit"><img src="http://image.yeoboya.com/imgs//new_wedding/mobile/new_login/icon_kakao.png" width="15" height="13" alt="카카오"/> 카카오 아이디로 이용하시는군요?</h3>
+        <p class="input_info_txt">
+             여보야를 정상적으로 이용하시려면<br>
+             먼저! 아래의 정보를 입력하셔야 합니다.
+        </p>
+        <div class="input_nick slct_none">
+            <input type="text" placeholder="대화명">
+                <!--------------------------------------------- 닉네임멘트 //------------------------------------------------------->
+                <!-- 기본멘트 //-->
+                <!--<p>※ 한글만 사용할 수 있습니다.(2자~8자)</p>//-->
+                <!-- 기본멘트 //-->
+                <!-- 등록가능 //-->
+                <!--<p class="color_g">! 등록 가능합니다.</p>//-->
+                <!-- 입력문자제한 //-->
+                <p class="color_r">! 한글만 사용 가능합니다</p>
+                <!-- 입력길이제한 //-->
+                <!-- 입력길이제한 //-->
+                <!--<p class="color_r">! 2자이상 8자 이하까지 입력하세요</p>//-->
+                <!-- 입력문자제한 //-->
+                <!-- 입력길이제한 //-->
+                <!--<p class="color_r">! 이미 사용중인 대화명입니다.</p>//-->
+                <!-- 입력문자제한 //-->
+                <!-- 첫글자규칙//-->
+                <!--<p class="color_r">! 첫 글자는 한글 또는 영어를 사용하여야 합니다.</p>//-->
+                <!-- 첫글자규칙//-->
+                <!--------------------------------------------- 닉네임멘트 //------------------------------------------------------->
+        </div>
+        <div class="box_slct">
+            <div class="slct_1">
+                <!-- 기본 
+                <div class="slct_kko_year">
+                    <select>
+                        <option>태어난년도</option>
+                        <option>2016</option>
+                        <option>2015</option>
+                        <option>2014</option>
+                    </select>
+                </div>
+                <!-- 기본 //-->
+                <!-- 선택안함 //-->
+                <div class="slct_kko_year slct_none">
+                    <select>
+                        <option>태어난년도</option>
+                        <option>2016</option>
+                        <option>2015</option>
+                        <option>2014</option>
+                    </select>
+                </div>
+                <!-- 선택안함 //-->
+                <div class="slct_kko_sex">
+                    <a href="#" class="kko_man_btn"></a>
+                    <a href="#" class="kko_woman_btn"></a>
+                </div>
+		    </div>
+           <!-- 선택안함 //-->
+            <div class="slct_2">
+                <!-- 기본 //-->
+                <div class="slct_region slct_region_1">
+                    <select>
+                        <option>지역선택</option>
+                        <option>서울</option>
+                        <option>광주</option>
+                        <option>부산</option>
+                    </select>
+                </div>
+                <!-- 기본 //-->
+                <!-- 선택안함 
+                <div class="slct_region slct_region_1 slct_none">
+                    <select>
+                        <option>지역선택</option>
+                        <option>서울</option>
+                        <option>광주</option>
+                        <option>부산</option>
+                    </select>
+                </div>
+                <!-- 선택안함 //-->
+                <!-- 기본 //-->
+                <div class="slct_region slct_region_2">
+                    <select>
+                        <option>-</option>
+                        <option>마륵동</option>
+                        <option>금호동</option>
+                    </select>
+                </div>
+                <!-- 기본 //-->
+                <!-- 선택안함 
+                <div class="slct_region slct_region_2 slct_none">
+                    <select>
+                        <option>-</option>
+                        <option>마륵동</option>
+                        <option>금호동</option>
+                    </select>
+                </div>
+                <!-- 선택안함 //-->
+            </div>
+        </div>
+        <div class="warn_mentbox">태어난 년도를 선택하세요</div>
+        <!--<div class="warn_mentbox">성별을 선택하세요</div>//-->
+        <!--<div class="warn_mentbox">접속지역을 선택하세요</div> //-->
+        <div class="rgst_btn">
+            <a href="#">등록완료</a>
+        </div>
+</div>
+</body>
+</html>

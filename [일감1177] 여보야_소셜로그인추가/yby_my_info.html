@@ -1,0 +1,735 @@
+<html lang="ko"><head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="http://image.yeoboya.com/imgs/new_wedding/mobile/img/favicon_16.ico" type="image/x-icon">
+<link rel="icon" href="http://image.yeoboya.com/imgs/new_wedding/mobile/img/favicon_16.ico" type="image/x-icon">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="ALL">
+<meta name="robots" content="index,follow">
+<meta name="revisit-after" content="1 days">
+<meta name="Subject" content="여보야">
+<meta name="description" content="결혼, 재혼, 평생 배우자를 찾는 스마트한 방법, 모바일 다운로드 제공">
+<meta name="keywords" content="여보야, yeoboya, 결혼, 재혼">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="HandheldFriendly" content="true">
+<meta name="mobile-web-app-capable" content="yes">
+
+
+<title>여보야</title>
+<link href="http://m.yeoboya.com/_global/css/webfont.min2.css" rel="stylesheet" type="text/css">
+<link href="http://m.yeoboya.com/_global/css/default.css?ver=1492156076" rel="stylesheet" type="text/css">
+<script async="" src="https://www.google-analytics.com/analytics.js"></script><script>
+document.domain = "yeoboya.com";
+var _underwork = false;
+</script>
+<script src="http://m.yeoboya.com/_global/js/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+<script src="http://m.yeoboya.com/_global/js/jquery-cookie.min.js"></script>
+<script src="http://m.yeoboya.com/_global/js/jsBridge.js?ver=1492156076"></script>
+<script src="http://m.yeoboya.com/_global/js/app.js?ver=1492156076"></script>
+<script src="http://m.yeoboya.com/_global/js/NodeMarrySession.js?ver=1492156076"></script>
+<script src="http://m.yeoboya.com/js/default.js?ver=1492156076"></script>
+<script src="http://m.yeoboya.com/js/testDomains.js?ver=1492156076"></script>
+<style>
+#imgSpinBg {position:fixed;width:100%;height:100%;background:rgba(0,0,0,0.7);top:0;}
+#imgSpin {position:fixed;top:50%;left:50%;margin-top:-36px;margin-left:-36px;width:72px;height:72px;}
+@-webkit-keyframes flip /* Safari and Chrome */ {
+  from {
+    -ms-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  to {
+    -ms-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+@keyframes flip {
+  from {
+    -ms-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  to {
+    -ms-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+.flip {    
+  -webkit-animation: flip 1.2s ease infinite;
+  -moz-animation: flip 1.2s ease infinite;
+  -ms-animation: flip 1.2s ease infinite;
+  -o-animation: flip 1.2s ease infinite;
+  animation: flip 1.2s ease infinite;
+}
+
+.btn_home{display:inline-block;}
+.btn_home{position:absolute; padding:7px 20px 2px 50px; top:0; right:0;}
+</style>
+<script src="http://m.yeoboya.com/cont/basicinfo/js/infoEdit.js?ver=1492156076"></script>
+</head>
+<body style=";-webkit-overflow-scrolling: touch">
+<script>
+// path controls
+var _chnl = 'cont';
+var _ctrl = 'basicinfo';
+var _dest = '';
+</script>
+<script src="http://m.yeoboya.com/_global/js/code.loc.detail.js"></script>
+<script language="javascript">
+var jsonBadWord = ["\ubcc0\uad0b\uc1e0","\uae4c\ud1a0\uc625:61456","\uae4c\ud1a0\uc625","61456","\uc815\uc790","\ub09c\uc790","\ud5a5\ubb38","\ubd64\uc9c0","\ud56d\ubb38","\ubd64\uc9c0\ud6c4\ud5a5\ubba8","\ud1a1\ud574\uc6a9","\uc544\uc774\ub514","\ud1a1\ud574\uc694","\ube68\uace0","\uc886","\uc886\ube68\uace0\uc788\ub124","\uc139\ub9c8","\uc57c\uc139\ub9c8","\uacb0\ud63c\uc0c1\ub2f4","\uc0c1\ub2f4","\uc5d0\uc2a4\uc5d0\uc2a4","\uc18d\uad81","0199","vv0199","\uc528\uc5d4\uc5d4\uacf5\uc0ac\uc77c\uc0bc","\uac1c\uc0c8\ub07c","\ubcd1\uc2e0","\ube05\uc2e0","\ud1a1\uc8fc\uc138\uc694","\uc5d0\uc774","\uba39\uae30","\ud3ec\uc778\ud2b8","Kkkkk","Kkkkk672","\uae08\uc83c","\uae08\uc804","\ud558\uccb4","\ub9e8\uc2a4","\uba58\uc2a4","\uc0dd\ub9ac","\uaf43\uc78e","\ubc14\uc2a4\ud2b8","\uc6e8\uc2a4\ud2b8","\ud788\ud504","\uc5c9\ub369\uc774","\uc918","\ud55c\ubc88","\ud560\ub798","\ubcf4\uc790","\ubcf4\uc5ec\uc918","\ubcfc\ub798","\uc790\uc790","\ud64d\ucf69","\ud790\ub85c\ud3f0","\ube68\uc790","\ud788\ub85c\ud401","\ud788\ub85c\ud3f0","\ube60\uafb8\ub9ac","\ubc14\uafb8\ub9ac","\ubc14\uad6c\ub9ac","\ube60\uad6c\ub9ac","\ub538\ub538\uc774","\ud5a9\uae30","\uc624\ub7f4","\uc624\ub784","\ucb48\ucb48\ubc14","\uc0ac\uae4c\uc2dc","\uc329","\u3148\u3131","\uc870\uac74","\ubc97\uc790","\uc601\uc0c1","\uc9c0\ub7f4","\uc9c0\ub784","\uc2dc\ubc29\uc0c8","\uc784\ube59","\uc784\ubcd1","\uc5fc\ubcd1","\ud638\ub85c","\uc57c\ud55c","\uc57c\ub3d9","\uc57c\uc124","\ud3ec\ub974\ub178","\uc74c\ub780","\uc74c\uae30","\uad6c\uba4d","\uc0c8\ub07c","\uc528\ubc1c","\uc528\ud314","\uc2dc\ubc1c","\ub188","\ud1a0\uc625","\ud1a1","\ud130\ub975","\uc720\ub450","\uc695\uad6c","\ub300\ubb3c","\ud560\ub818","\uc0c9\uc2a4","\uc721\uad6c","\ub9c8\uc57d","\uc816","\uc720\ubc29","\uc7a0\uc9c0","\ud138","\uc883","\uc139\uc2a4","\uc131\uae30","\ubcf4\uc9c0","\uc790\uc9c0","\uce74\ud1a1","\u314b\u314f\ud1a1"];
+
+jQuery(function() {
+	// 대지역 변경 이벤트 헨들러 등록.
+	var fgnSlct = "x";
+	jQuery('select[name="loc"]').change(function() {
+		if(fgnSlct=='y' || fgnSlct=='w') {
+			$('select[name="loc"]').val('q');
+			$.alert('해외 회원은 국내로 변경이 불가합니다', null, null);
+			return;			
+		}
+		var loc = jQuery(this).val();
+		var slocKey = _codeLoc[loc]['KEY'];
+		var slocVal = _codeLoc[loc]['VAL'];
+		var slocSelector = jQuery('select[name="sloc"]');
+
+		// 상세지역 select box 초기화.
+		jQuery(slocSelector).empty();
+
+		// 대지역에 맞는것으로 상세지역 다시 세팅.
+		jQuery(slocSelector).append('<option value="">전체</option>');
+		for (var i = 0; i < slocKey.length; i++) {
+			jQuery(slocSelector).append('<option value="' + slocKey[i] + '">' + slocVal[i] + '</option>');
+		}
+	});
+
+		jQuery("#memNickHint").html("! 변경할 대화명을 입력하여 주세요. </br> ! 한글만 사용할 수 있습니다. (2자 ~8자)");
+	jQuery('#memNick').focus();
+	});
+
+/*
+ * 지역변경
+ */
+function changeLoc() {
+	var loc= jQuery('select[name="loc"]').val();
+	var sloc= jQuery('select[name="sloc"]').val();
+
+	if (sloc == '') {
+		return jQuery.alert('상세지역을 선택하여 주세요.', '확인');
+	}
+
+	// 지역 변경.
+	jQuery.confirm("지역정보를 변경하시겠습니까?", "취소","확인", null, function() {
+		jQuery.ajax({
+			type: 'POST',
+			url: '/?ctrl=basicinfo/ajax&dest=ajaxChangeLoc',
+			dataType: 'JSON',
+			timeout: 5000,
+			cache: false,
+			data: {
+				'loc': loc,
+				'sloc': sloc
+			},
+			success: function(data) {
+				if (data == "1") {
+					// 값이 변경되었으면 쿠키값도 변경된 값으로 갱신해준다.
+					jQuery.set_gCCV('LOC',loc);
+					jQuery.set_gCCV('S_LOC',sloc);
+
+					// 토스트메시지...
+					jQuery.toast("변경되었습니다.");
+				} else {
+					jQuery.alert("시스템 오류.<br>다시 시도해 주세요", "확인");
+				}
+			}, 
+			error: function() {
+				jQuery.alert("시스템 오류.<br>다시 시도해 주세요", "확인");
+			}
+		});
+	});
+}
+
+/*
+ * 비밀번호변경
+ */
+function changePassword() {
+	var oldPW = jQuery('input[name="oldPW"]');
+	var newPW1 = jQuery('input[name="newPW1"]');
+	var newPW2 = jQuery('input[name="newPW2"]');
+
+	function checkLength(selector) {
+		if (jQuery(selector).val().length < 4) {
+			jQuery.alert("비밀번호는 최소4자이상 최대 12자 까지 가능합니다.","확인", function() {
+				jQuery(selector).select();
+			});
+			return false;
+		}
+		return true;
+	}
+
+	if (! checkLength(oldPW)) return;
+	if (! checkLength(newPW1)) return;
+	if (! checkLength(newPW2)) return;
+
+	if (jQuery(newPW1).val() != jQuery(newPW2).val()) {
+		return jQuery.alert("입력하신 신규비밀번호가 서로 일치하지 않습니다.","확인", function() {
+			jQuery(newPW1).select();
+		});
+	}
+
+	// 모든체크는 끊났다. 업데이트하러 가자!!!
+	jQuery.confirm("비밀번호를 변경하시겠습니까?", "취소","확인", null, function() {
+		jQuery.ajax({
+			type: 'POST',
+			url: '/?ctrl=basicinfo/ajax&dest=ajaxChangePW',
+			dataType: 'JSON',
+			timeout: 5000,
+			cache: false,
+			data: {
+				'oldPW': jQuery(oldPW).val(),
+				'newPW': jQuery(newPW1).val()
+			},
+			success: function(data) {
+				if (data == "1") {
+					// 토스트메시지...
+					jQuery.toast("변경되었습니다.");
+
+					// 폼 클리어.
+					jQuery(oldPW).val('');
+					jQuery(newPW1).val('');
+					jQuery(newPW2).val('');
+				} else if (data == "-1") {
+					jQuery.alert("기존 비밀번호가 틀립니다.<br>다시 시도해 주세요", "확인", function() {
+						jQuery(oldPW).select();
+					});
+				} else {
+					jQuery.alert("시스템 오류.<br>다시 시도해 주세요", "확인");
+				}
+			}, 
+			error: function() {
+				jQuery.alert("시스템 오류.<br>다시 시도해 주세요", "확인");
+			}
+		});
+	});
+}
+
+
+
+/*
+ * 회원탈퇴하기
+
+function leaveMember() {
+	var ment = ($.cookie('gCCV:SLCT')=='j') ? "탈퇴하면 모든 정보가 삭제되고<br>해당중매회원도 모두 탈퇴처리됩니다.<br/>탈퇴 하시겠습니까?" : "탈퇴하면 모든 정보가 삭제됩니다.<br/>탈퇴 하시겠습니까?";
+	jQuery.confirm(ment,"취소","탈퇴하기",null,function() {
+		jQuery.ajax({
+			type: 'POST',
+			url: '/?ctrl=basicinfo/ajax&dest=ajaxLeaveMember',
+			dataType: 'JSON',
+			timeout: 5000,
+			cache: false,
+			success: function(data) {
+				if (data == "1") {
+					// 토스트메시지...
+					jQuery.toast("변경되었습니다. 초기페이지로 이동합니다.");
+					$.runLogout();
+				} else {
+					jQuery.alert("시스템 오류, 다시 시도해 주세요", "확인");
+				}
+			}, 
+			error: function() {
+				jQuery.alert("시스템 오류, 다시 시도해 주세요", "확인");
+			}
+		});
+	});
+}
+*/
+
+var chkChar1 = /[^\u0030-\u0039\u0041-\u005a\u0061-\u007a]/; //영문,숫자
+var chkChar2 = /[^\u0030-\u0039]/; //숫자
+var chkChar3 = /[^\uac00-\ud7af]/; //한글
+var chkChar4 = /[^\u0041-\u005a\u0061-\u007a]/; //영문
+var chkChar5 = /[^\uac00-\ud7af\u0030-\u0039]/; //한글,숫자
+var chkChar6 = /[^\uac00-\ud7af\u0030-\u0039\u0041-\u005a\u0061-\u007a]/; //한글,영문,숫자
+
+// 대화명 자리수 검증
+function typeCheck(fld,astr,lmin,lmax,msgId,chkMsg) {
+	var t = $(fld).val();
+	var msg;
+
+	if(!(lmin == 0 && lmax == 0) && (t.length < lmin || t.length > lmax) ) {
+			if(lmin==lmax) msg = '! ' + lmin + '자리까지 입력하세요';
+			else msg = '! ' + lmin + '자이상 ' + lmax + '자 이하까지 입력하세요';
+			
+			if(msgId!="")	$(msgId).html(msg);
+			else $.alert(msg);
+				
+			return true;
+	}
+	if(astr) {
+			if(t.search(astr) != -1) {
+					msg = '! 대화명에는 ' + chkMsg + '만 사용 할 수 있습니다.(2자~8자)';
+							
+					if(msgId!="") $(msgId).html(msg);
+					else $.alert(msg);		
+									
+					return true;
+			}		    	
+	}
+	return false;
+}
+
+// 대화명 변경하기
+function changeNick() {
+	var nickVal = $.trim($("#memNick").val());
+	if(nickVal) {
+		// 금지단어 점검
+		var cleanNickVal = nickVal.replace(/\s/gi,'');				
+		if(jsonBadWord) {
+			if((new RegExp("(" + jsonBadWord.join('|') + ")","i")).test(cleanNickVal)) {
+				$("#memNickHint").html("! 금지단어가 포함된 대화명입니다.");
+				return false;
+			}
+		}
+		//alert(nickVal);
+
+		if(typeCheck("#memNick",chkChar3,2,8,"#memNickHint","한글")) {
+			return false;
+		}
+
+		if((nickVal).search(chkChar3) != -1) {
+			$("#memNickHint").html("! 대화명에는 한글만 사용할 수 있습니다.(2자~8자)");
+			return false;
+		}
+
+		// 대화명 수정
+		jQuery.ajax({
+			type: 'POST',
+			url: '/?ctrl=basicinfo/ajax&dest=ajaxChangeNick',
+			data: {'memNick':$.trim($("#memNick").val())},
+			dataType: 'JSON',
+			timeout: 5000,
+			cache: false,
+			success: function(data) {				
+				switch(data) {
+					case '-1' :
+						$("#memNickHint").html("! 기존 대화명과 동일합니다.");
+						break;
+					case '-2' :
+						$("#memNickHint").html("! 이미 사용중인 대화명입니다.");
+						break;
+					case '1' :
+						$("#memNickHint").html('<span style="color:blue">! 대화명을 변경하였습니다.</span>');
+						$.set_gCCV('NICK', $.trim($("#memNick").val()));
+						jQuery.toast("대화명을 변경하였습니다.",function(){
+							window.location.reload();
+						});						
+						break;				
+					default :
+						jQuery.alert("시스템 오류, 다시 시도해 주세요", "확인");
+						break;
+				}				
+			}, 
+			error: function() {
+				jQuery.alert("시스템 오류, 다시 시도해 주세요", "확인");
+			}
+		});
+	}
+	else {
+		$("#memNickHint").html("! 변경할 대화명을 입력하여 주세요. </br> ! 한글만 사용할 수 있습니다. (2자 ~8자)");
+		$("#memNick").focus();
+	}
+}
+</script>
+<style>
+/*
+.btn_change_id {display: inline-block; margin-left:3px; width:59px; height:20px; border:1px solid #adadad; border-radius:3px; background:-moz-linear-gradient(top, #fefefe 0%, #ededed 100%); background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(100%,#ededed)); background:-webkit-linear-gradient(top, #fefefe 0%,#ededed 100%); background:-o-linear-gradient(top, #fefefe 0%,#ededed 100%); background:-ms-linear-gradient(top, #fefefe 0%,#ededed 100%); background:linear-gradient(to bottom, #fefefe 0%,#ededed 100%); font-size:12px; text-align:center; line-height:20px;}
+
+#memNick {border:1px solid #d3d3d3;padding:1px 5px;width:80px;border-radius:3px}
+#memNickHint {position:absolute;top:65px;left:58px;font-size:12px;color:red}
+*/
+
+/* 일감 1127 */
+.btn_change_id {display: inline-block; margin-right:84px; width:45px; height:20px; border:1px solid #adadad; border-radius:3px; background:-moz-linear-gradient(top, #fefefe 0%, #ededed 100%); background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(100%,#ededed)); background:-webkit-linear-gradient(top, #fefefe 0%,#ededed 100%); background:-o-linear-gradient(top, #fefefe 0%,#ededed 100%); background:-ms-linear-gradient(top, #fefefe 0%,#ededed 100%); background:linear-gradient(to bottom, #fefefe 0%,#ededed 100%); font-size:12px; text-align:center; line-height:20px; float:right;}
+.btn_logout {display:block; position:absolute; top:60px; right:11px; width:60px; height:30px; border:1px solid #adadad; border-radius:3px; background:-moz-linear-gradient(top, #fefefe 0%, #ededed 100%); background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(100%,#ededed)); background:-webkit-linear-gradient(top, #fefefe 0%,#ededed 100%); background:-o-linear-gradient(top, #fefefe 0%,#ededed 100%); background:-ms-linear-gradient(top, #fefefe 0%,#ededed 100%); background:linear-gradient(to bottom, #fefefe 0%,#ededed 100%); font-size:12px; text-align:center; line-height:30px;}
+.age_btn_box { display:inline-block; width:45px; height:20px; border:1px solid #adadad; border-radius:3px; background:-moz-linear-gradient(top, #fefefe 0%, #ededed 100%); background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(100%,#ededed)); background:-webkit-linear-gradient(top, #fefefe 0%,#ededed 100%); background:-o-linear-gradient(top, #fefefe 0%,#ededed 100%); background:-ms-linear-gradient(top, #fefefe 0%,#ededed 100%); background:linear-gradient(to bottom, #fefefe 0%,#ededed 100%); font-size:12px; text-align:center; line-height:20px; margin-right:84px;  float:right; position:relative;  }
+.age_btn_box label { position:absolute; width:45px; left:-31px; }
+.age_btn_box .color_select { width:100%; height:20px; opacity:0; }
+#memNick {border:1px solid #d3d3d3;padding:1px 5px;width:80px;border-radius:3px}
+#memNickHint {position:absolute;top:65px;left:58px;font-size:12px;color:red}
+@media (min-width:360px) {
+.age_btn_box {width:55px; margin-right:106px; }
+.age_btn_box label { left:-26px; }
+.btn_change_id { width:55px; margin-right:106px;  }
+.btn_logout { width:70px; height:40px; line-height:40px; top:52px;  }
+}
+
+@media (min-width:414px) {
+.age_btn_box {margin-right:145px; }
+.btn_change_id { margin-right:145px;  }
+}
+@media (min-width:768px) {
+.age_btn_box {margin-right:455px; }
+.btn_change_id { margin-right:455px;  }
+}
+
+.input_id_ch { display:block; width:80%; height:25px; line-height:25px; background:#eee; border:1px solid #d7d7d7; margin:10px auto; padding-left:10px}
+</style>
+
+		<header>
+		<a href="javascript:$.goBack();" class="btn_back"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_back.jpg" width="30" height="31" alt="뒤로"></a>
+		<p class="title_header font_m">기본정보설정</p>
+		<a href="javascript:void(0);" onclick="$.finishPop('')" class="btn_home">
+			<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/home.png" width="33" height="31" alt="홈으로">
+		</a>
+	<span id="connectionStatus" style="position:absolute; top:-5px; left:-3px;">&nbsp;<b><font color="red" size="2">OO</font></b></span></header><div class="basic_info_box" style="">
+	<div id="basicInfoBox">
+	<p class="font_m"> <img src="http://image.yeoboya.com/imgs//new_wedding/mobile/new_login/icon_naver.png" width="15" height="13" alt="네이버" style="vertical-align:middle;" /> 네이버 로그인 사용중 </p>
+	<p class="font_m"> <img src="http://image.yeoboya.com/imgs//new_wedding/mobile/new_login/icon_kakao.png" width="17" height="15" alt="카카오" style="vertical-align:middle;" /> 카카오 로그인 사용중 </p>
+	<p class="font_m"> 
+		<!--
+				<span>대화명:</span> <input type="text" name="memNick" id="memNick" maxlength="8" value=""> 
+		<a href="javascript:void(0);" onclick="changeNick();" class="btn_change_id font_m">변경</a>
+		<span id="memNickHint"></span>
+				-->
+		<span>대화명:</span> 재혼할거야				<a href="javascript:void(0);" onclick="$.memNickEdit();" class="btn_change_id font_m">변경</a>
+			</p>
+	<p class="font_m"> 
+		<span>나 이:</span> 1997년생
+				<span class="age_btn_box">
+		<label for="change_age">변경</label>
+		<select id="change_age" class="color_select" onchange="$.birthYearEdit(this)">
+							<option value="1998">1998</option>
+							<option value="1997" selected="">1997</option>
+							<option value="1996">1996</option>
+							<option value="1995">1995</option>
+							<option value="1994">1994</option>
+							<option value="1993">1993</option>
+							<option value="1992">1992</option>
+							<option value="1991">1991</option>
+							<option value="1990">1990</option>
+							<option value="1989">1989</option>
+							<option value="1988">1988</option>
+							<option value="1987">1987</option>
+							<option value="1986">1986</option>
+							<option value="1985">1985</option>
+							<option value="1984">1984</option>
+							<option value="1983">1983</option>
+							<option value="1982">1982</option>
+							<option value="1981">1981</option>
+							<option value="1980">1980</option>
+							<option value="1979">1979</option>
+							<option value="1978">1978</option>
+							<option value="1977">1977</option>
+							<option value="1976">1976</option>
+							<option value="1975">1975</option>
+							<option value="1974">1974</option>
+							<option value="1973">1973</option>
+							<option value="1972">1972</option>
+							<option value="1971">1971</option>
+							<option value="1970">1970</option>
+							<option value="1969">1969</option>
+							<option value="1968">1968</option>
+							<option value="1967">1967</option>
+							<option value="1966">1966</option>
+							<option value="1965">1965</option>
+							<option value="1964">1964</option>
+							<option value="1963">1963</option>
+							<option value="1962">1962</option>
+							<option value="1961">1961</option>
+							<option value="1960">1960</option>
+							<option value="1959">1959</option>
+							<option value="1958">1958</option>
+							<option value="1957">1957</option>
+							<option value="1956">1956</option>
+							<option value="1955">1955</option>
+							<option value="1954">1954</option>
+							<option value="1953">1953</option>
+							<option value="1952">1952</option>
+							<option value="1951">1951</option>
+							<option value="1950">1950</option>
+							<option value="1949">1949</option>
+							<option value="1948">1948</option>
+							<option value="1947">1947</option>
+							<option value="1946">1946</option>
+							<option value="1945">1945</option>
+							<option value="1944">1944</option>
+							<option value="1943">1943</option>
+							<option value="1942">1942</option>
+							<option value="1941">1941</option>
+							<option value="1940">1940</option>
+							<option value="1939">1939</option>
+							<option value="1938">1938</option>
+							<option value="1937">1937</option>
+							<option value="1936">1936</option>
+							<option value="1935">1935</option>
+							<option value="1934">1934</option>
+							<option value="1933">1933</option>
+							<option value="1932">1932</option>
+							<option value="1931">1931</option>
+							<option value="1930">1930</option>
+							<option value="1929">1929</option>
+							<option value="1928">1928</option>
+							<option value="1927">1927</option>
+							<option value="1926">1926</option>
+							<option value="1925">1925</option>
+							<option value="1924">1924</option>
+							<option value="1923">1923</option>
+							<option value="1922">1922</option>
+							<option value="1921">1921</option>
+							<option value="1920">1920</option>
+							<option value="1919">1919</option>
+							<option value="1918">1918</option>
+							<option value="1917">1917</option>
+							<option value="1916">1916</option>
+							<option value="1915">1915</option>
+							<option value="1914">1914</option>
+							<option value="1913">1913</option>
+							<option value="1912">1912</option>
+							<option value="1911">1911</option>
+							<option value="1910">1910</option>
+							<option value="1909">1909</option>
+							<option value="1908">1908</option>
+							<option value="1907">1907</option>
+							<option value="1906">1906</option>
+							<option value="1905">1905</option>
+							<option value="1904">1904</option>
+							<option value="1903">1903</option>
+							<option value="1902">1902</option>
+							<option value="1901">1901</option>
+			 
+		</select>
+		</span>
+			</p>
+		<p class="font_m"> 
+		<span>성혼유형:</span> 결혼				<a href="javascript:void(0);" onclick="$.memSlctEdit('w');" class="btn_change_id font_m">변경</a>
+			</p>
+		<a href="javascript:$.runLogout();" class="btn_logout font_m">로그아웃</a>
+		<span style=" width:90%; display:block; margin:0 auto; font-size:13px; text-align:center; padding-top:10px;">※ 대화명, 나이, 성혼유형은 잘못된 정보에 한하여 <br><span style="color:#F00">단 1회</span> 변경이 가능합니다.<p></p>
+		</span></div>
+</div>
+<div class="basic_info_box02" style="margin-top:2px;">
+	<p class="font_m"> 지역 </p>
+	<select name="loc" class="basic_area_drop dropbox_left01">
+		<option value="i">서울</option>
+<option value="b">경기</option>
+<option value="k">인천</option>
+<option value="g">대전</option>
+<option value="f">대구</option>
+<option value="h">부산</option>
+<option value="e" selected="">광주</option>
+<option value="z">세종</option>
+<option value="j">울산</option>
+<option value="p">충북</option>
+<option value="o">충남</option>
+<option value="n">전북</option>
+<option value="l">전남</option>
+<option value="d">경북</option>
+<option value="c">경남</option>
+<option value="a">강원</option>
+<option value="m">제주</option>
+<option value="y">북한</option>
+<option value="q">해외</option>
+	</select>
+	<select name="sloc" class="basic_area_drop dropbox_left02">
+		<option value="e01">광산구</option>
+<option value="e02">남구</option>
+<option value="e03">동구</option>
+<option value="e04">북구</option>
+<option value="e05" selected="">서구</option>
+<option value="e00">기타</option>
+	</select>
+	<a href="javascript:changeLoc()" class="btn_change01 font_m">변경</a>
+</div>
+<div class="basic_info_box02" style="margin-top:2px;">
+	<p class="font_m"> 비밀번호변경 </p>
+	<a href="javascript:changePassword();" class="btn_change01 font_m">변경</a>
+	<span class="password_reset font_r">
+	<span class="basic_info_txt">기존비밀번호</span>
+	<input type="password" name="oldPW" class="basic_password_form" maxlength="12">
+	</span>
+	<span class="password_reset font_r">
+	<span class="basic_info_txt">신규비밀번호</span>
+	<input type="password" name="newPW1" class="basic_password_form" maxlength="12">
+	</span>
+	<span class="password_reset font_r">
+	<span class="basic_info_txt">비밀번호확인</span>
+	<input type="password" name="newPW2" class="basic_password_form" maxlength="12">
+	</span>
+</div>
+<div class="basic_info_box02" style="margin-top:2px;">
+	<p class="font_m"> 휴대폰번호<span class="phone_number font_m">010-6543-6179</span> </p> 
+	<a href="/?ctrl=phonecheck&amp;retUrl=/?ctrl=basicinfo" class="btn_change01 font_m">변경</a>
+</div>
+<!-- 
+<div class="basic_info_box02">
+	<p class="font_m"> 탈퇴하기 </p>
+	<a href="javascript:$.leaveMember()" class="btn_change01 font_m">탈퇴하기</a>
+</div>
+ -->
+<style>
+.company_ad { display:none; bottom:0; width:100%; height:auto; background-color:#636467; font-size:12px; color:#FFF;  padding:3px 0; text-align:center; }
+.posi_relative {position: relative;}
+.posi_fixed {position: fixed; }
+#btnMoveTop:focus {outline:none;}
+</style>
+
+<div id="pushFloat"></div>
+<a href="javascript:void(0);" onclick="$(this).effect('bounce',{times:3},30,function(){$.goTop();});" id="btnMoveTop"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_jump_up.png" width="35" alt=""></a>
+
+<div class="company_ad font_r posi_fixed" id="company_ad">
+(주)인포렉스 대표이사 박진. 사업자등록번호 409-81-49209<br>
+광주광역시 서구 마륵동 165-27. 문의전화 1522-3379<br>
+결혼중개신고번호 광주-서구-국내-15-0003호
+</div>
+
+
+<script>
+$(document).ready(function() {
+
+	$.hashState = 1;
+
+	// open layer use backbutton
+	$.setHash = function(hashStr) {
+		$.hashState = 2;
+		if(history.pushState) {
+			history.pushState('', document.title, '/' + location.search + hashStr);
+		}
+		if(typeof(Storage) !== "undefined") {
+			localStorage.setItem("lastHash", hashStr);
+		}
+	}
+
+	// hash action
+	$.actHash = function(hashData) {
+		$.hashState = 3;
+		switch(hashData) {
+			case '#photo_save_hash' :
+				$("#photo_save_ly").hide();
+				break;
+			case '#slctPrPhoto' :
+				$('#slctPrPhoto').hide();
+				break;
+			case '#slctProfileAttr' :
+				$.closeProfileAttr();
+				break;
+			case '#ifx-alert' :
+				$('#ifx-dialog').hide();
+				break;
+			case '#ifx-confirm' :
+				$('#ifx-dialog').hide();
+				break;
+			case '#msgReport' :
+        $('#profileReport').hide();
+        $('#msgReport').hide();
+        $('#wealthReport').hide();
+				break;
+			case '#ajaxStopID' :
+				$('#ifx-dialog').hide();
+				break;
+			case '#brokerMember' : // ----------------- 중매회원 소개
+				$("#brokerMember").remove();
+				break;
+			case '#miniProfile' : // ----------------- 미니프로필
+				$("#miniProfile").remove();
+				break;
+			case '#bgBlack' : // ----------------- 전체보기버튼 눌렀을 때 암막 2016.11.02 endy 
+				$.allMenuHide();
+				break;
+			case '#bgBlackAll' : // ----------------- 2016.11.02 endymion 전체보기버튼 눌렀을 때 암막
+				$.setNewMemAlertHide();
+				break;
+			case '#noticeOpen' :
+				$.noticeClose();
+				break;
+			case '#floating' : // ----------------- 플로팅버튼 2017.04.03 endy 
+				$('.float_wrap').removeClass('float_wrap_on');
+				$(".float_bg_modal").css({'display' : 'none'});
+				break;
+			default :
+				// 연락하기
+				if(hashData.indexOf('msg_send_ly')) {
+					var arRet = hashData.split('_');
+					$.msgCloseLayer(arRet[3]);
+				}
+
+				if(hashData.indexOf('msg_rcv_ly')) {
+					var arRet = hashData.split('_');
+					$.msgCloseLayer(arRet[3]);
+				}
+				break;
+			}
+	}
+
+	// hash chcek
+	$(window).on('hashchange', function(e) {
+		if(typeof(Storage) !== "undefined") {
+			if(window.location.hash == '') {
+				$.actHash(localStorage.lastHash);
+				localStorage.setItem("lastHash", '');
+			}
+
+			if(window.location.hash != '' && window.location.hash != localStorage.lastHash) {
+				$.actHash(localStorage.lastHash);
+				localStorage.setItem("lastHash", window.location.hash);
+			}
+		}
+	});
+
+	$(window).scroll(function() {
+		if($(window).scrollTop() > 300) {
+			$('#btnMoveTop').css({"z-index":"999","margin-bottom":"0px"}).show();
+		}
+		else {
+			$('#btnMoveTop').hide();
+		}
+	});
+
+
+});
+</script>
+
+<script>
+(function($) {
+	// user stop check
+	if($.cookie('gCCV:NO')) {
+		if($isApp) {
+			$(document).on('WebViewJavascriptBridgeReady', function() {
+				$.userStopChk('userStop');
+			});
+		}
+		else {
+			$.userStopChk('userStop');
+		}
+	}
+}(jQuery));
+</script>
+
+<script type="text/javascript" src="http://wcs.naver.net/wcslog.js"></script>
+<script type="text/javascript">
+if(!wcs_add) var wcs_add = {};
+wcs_add["wa"] = "20807a7d901ae4";
+wcs_do();
+</script>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-65223325-2', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+</body></html>

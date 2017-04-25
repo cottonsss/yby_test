@@ -1,0 +1,544 @@
+<html lang="ko"><head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="http://image.yeoboya.com/imgs/new_wedding/mobile/img/favicon_16.ico" type="image/x-icon">
+<link rel="icon" href="http://image.yeoboya.com/imgs/new_wedding/mobile/img/favicon_16.ico" type="image/x-icon">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="ALL">
+<meta name="robots" content="index,follow">
+<meta name="revisit-after" content="1 days">
+<meta name="Subject" content="여보야">
+<meta name="description" content="결혼, 재혼, 평생 배우자를 찾는 스마트한 방법, 모바일 다운로드 제공">
+<meta name="keywords" content="여보야, yeoboya, 결혼, 재혼">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="HandheldFriendly" content="true">
+<meta name="mobile-web-app-capable" content="yes">
+
+
+<title>여보야</title>
+<link href="http://devm-cuteohj.yeoboya.com/_global/css/webfont.min2.css" rel="stylesheet" type="text/css">
+<link href="http://devm-cuteohj.yeoboya.com/_global/css/default.css?ver=1492134558" rel="stylesheet" type="text/css">
+<script async src="https://www.google-analytics.com/analytics.js"></script><script>
+document.domain = "yeoboya.com";
+var _underwork = false;
+</script>
+<script src="http://devm-cuteohj.yeoboya.com/_global/js/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+<script src="http://devm-cuteohj.yeoboya.com/_global/js/jquery-cookie.min.js"></script>
+<script src="http://devm-cuteohj.yeoboya.com/_global/js/jsBridge.js?ver=1492134558"></script>
+<script src="http://devm-cuteohj.yeoboya.com/_global/js/app.js?ver=1492134558"></script>
+<script src="http://devm-cuteohj.yeoboya.com/_global/js/NodeMarrySession.js?ver=1492134558"></script>
+<script src="http://devm-cuteohj.yeoboya.com/js/default.js?ver=1492134558"></script>
+<script src="http://devm-cuteohj.yeoboya.com/js/testDomains.js?ver=1492134558"></script>
+<style>
+#imgSpinBg {position:fixed;width:100%;height:100%;background:rgba(0,0,0,0.7);top:0;}
+#imgSpin {position:fixed;top:50%;left:50%;margin-top:-36px;margin-left:-36px;width:72px;height:72px;}
+@-webkit-keyframes flip /* Safari and Chrome */ {
+  from {
+    -ms-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  to {
+    -ms-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+@keyframes flip {
+  from {
+    -ms-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  to {
+    -ms-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+.flip {    
+  -webkit-animation: flip 1.2s ease infinite;
+  -moz-animation: flip 1.2s ease infinite;
+  -ms-animation: flip 1.2s ease infinite;
+  -o-animation: flip 1.2s ease infinite;
+  animation: flip 1.2s ease infinite;
+}
+
+.btn_home{display:inline-block;}
+.btn_home{position:absolute; padding:7px 20px 2px 50px; top:0; right:0;}
+</style>
+
+</head>
+<body style=";-webkit-overflow-scrolling: touch">
+<script>
+// path controls
+var _chnl = 'cont';
+var _ctrl = 'member';
+var _dest = 'login';
+</script><style type="text/css">
+/*layout*/
+#loginWrap{position:relative; width:100%; height:505px; background:url(http://image.yeoboya.com/imgs/new_wedding/mobile/new_login/img_login_bg.jpg) no-repeat 0 0; background-size:cover; overflow-y:hidden;}
+#con2_bg{position:absolute; width:100%; height:auto; bottom:0; text-align:center; padding:14px 0;
+background: -moz-linear-gradient(top, rgba(126,114,104,0.4) 0%, rgba(126,114,104,0.1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(126,114,104,0.4) 0%,rgba(126,114,104,0.1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(126,114,104,0.4) 0%,rgba(126,114,104,0.1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
+#y_logo{position:relative; width:100%; height:auto; top:0; text-align:center;}
+#content1{position:relative; width:86%; height:auto; padding:0 7%;}
+#y_logo img{padding:50px 0 40px 0;}
+/*layout*/
+
+/* id */
+#flogin{position:absolute; width:100%; height:auto;}
+.input_id{display:none; position:relative; width:100%; height:40px; margin-bottom:10px;}
+.input_id p.mail{float:left; font-size:20px; color:#3b2d1f; width:10%; text-align:center; margin-top:4px;}
+.input_id img.delete_id{position:absolute; left:38%; top:15px;}
+
+.id_box_1{float:left; position:relative; overflow:hidden; width:45%; height:29px; background:rgba(255,255,255,.3); border:none; border-radius:3px; padding:5px 0 5px 0;}
+.id_box_1 span.input_row1{display:block; overflow:hidden;}
+.inputBox{position:relative; width:100%; height:17px; padding:7px 0 5px 11px; background:none; border:none; line-height:17px; font-size:14px; color:#4a3e38; letter-spacing:-0.4px; box-sizing:content-box; outline:none;}
+
+
+.input_id .inputBox2{float:right; width:100%; height:40px; line-height:40px; background:rgba(255,255,255,.3); border:none; border-radius:3px; box-sizing:border-box; font-size:16px; font-weight:bold; color:#4a3e38; letter-spacing:-0.4px; outline:none;}
+.input_id img.delete_id3{position:absolute; left:93%; top:15px;}
+/* id */
+
+/* selectbox */
+.input_id .select_box{float:right; position:relative; width:45%; height:40px;}
+.input_id .select_box label{position:absolute; font-size:16px; color:#fff; padding:10px 8px;}
+.input_id .select_box .mail_d{width:100%; height:39px; line-height:18px; opacity:1; filter:alpha(opacity=2); font-size:16px; font-weight:bold; color:#4a3e38; top:0; background:rgba(255,255,255,.3) url(http://image.yeoboya.com/imgs/new_wedding/mobile/new_login/btn_select.png) 97% 88% no-repeat; background-size:10px 10px; border:none; border-radius:3px; box-sizing:border-box; padding:6px 8px 8px 8px; -webkit-appearance:none; -moz-appearance:none; -o-appearance:none; appearance:none; outline:none;}
+/* selectbox */
+
+/* id2 */
+.input_id2{position:relative; overflow:hidden; width:100%; height:auto; margin-bottom:10px; background:rgba(255,255,255,.3); border:none; border-radius:3px; overflow:hidden; padding:5px 39px 5px 11px; box-sizing:border-box;}
+.input_id2 span.input_row2{display:block; overflow:hidden;}
+.input_id2 img.delete_id2{position:absolute; left:93%; top:15px;}
+.input_id2 .inputBox{position:relative; width:100%; height:17px; padding:7px 0 5px 0; background:none; border:none; line-height:17px; font-size:14px; font-weight:bold; color:#4a3e38; letter-spacing:-0.4px; box-sizing:content-box; outline:none;}
+/* id2 */
+
+/* password */
+.input_pw{position:relative; overflow:hidden; height:29px; background:rgba(255,255,255,.3); border:none; border-radius:3px; overflow:hidden; padding:5px 39px 5px 11px;}
+.input_pw span.pw_box{display:block; overflow:hidden;}
+.input_pw img.delete_pw{position:absolute; left:93%; top:15px;}
+.input_pw span.pw_box input[type=password]{position:relative; width:100%; height:17px; padding:7px 0 5px 0; background:none; border:none; line-height:17px; font-size:14px; font-weight:bold; color:#4a3e38; letter-spacing:-0.4px; box-sizing:content-box; outline:none;}
+/* password */
+
+/* login btn */
+.input_btn{position:relative; width:100%; height:auto; margin-top:10px;}
+input[type=submit]{width:100%; height:auto; line-height:42px;
+background: -moz-linear-gradient(top, rgba(56,40,33,0.7) 0%, rgba(58,49,37,0.7) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(56,40,33,0.7) 0%,rgba(58,49,37,0.7) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(56,40,33,0.7) 0%,rgba(58,49,37,0.7) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+border:none; border-radius:3px; font-size:20px; color:#ffffff; font-weight:bold; letter-spacing:-0.6px; box-shadow:1px 1px 3px #888;}
+/* login btn */
+
+/* find_info, customer_center */
+.etc_menu{position:relative; width:100%; height:auto; padding-top:10px; font-size:14px; color:#4a3e38; text-align:center;}
+.etc_menu .find_info{display:inline-block; margin-right:5px; letter-spacing:-1px;}
+.etc_menu .customer_center{display:inline-block; margin-left:5px; letter-spacing:-1px;}
+/* find_info, customer_center */
+    
+.social_lg{position:relative; width:100%; height:auto; padding-top:20px; box-sizing:border-box; overflow:auto;}
+    .social_lg p{font-size:12px; line-height:24px;  color:#4a3e38; letter-spacing:-1px; text-align:center;}
+    .social_lg .sc_nv{float:left; width:50%; height:auto; padding-right:10px; box-sizing:border-box;}    
+    .social_lg .sc_nv a{display:block; width:100%; height:auto; padding:10px 0 11px 0; padding-left:35px; border-radius:3px; background:#fff url(http://image.yeoboya.com/imgs/new_wedding/mobile/new_login/ico_nv.png)left center no-repeat; background-size:35px 35px; font-size:13px; line-height:14px; color:#4a3e38; text-align:center; letter-spacing:-1px; box-sizing:border-box;}
+    .social_lg .sc_kko{float:right; width:50%; height:auto; padding-left:10px; box-sizing:border-box;}  
+    .social_lg .sc_kko a{display:block; width:100%; height:auto; padding:10px 0 11px 0; padding-left:35px; border-radius:3px; background:#fff url(http://image.yeoboya.com/imgs/new_wedding/mobile/new_login/ico_kko.png)left center no-repeat; background-size:35px 35px; font-size:13px; line-height:14px; color:#4a3e38; text-align:center; letter-spacing:-1px; box-sizing:border-box;}
+
+/* join */
+#con2_bg .join_btn{position:relative; width:80%; height:auto; margin:0 auto;}
+#con2_bg .join_btn a{display:block; width:100%; height:100%; padding:20px 0; border:2px solid #e4e0db; border-radius:50px; box-shadow:1px 2px 3px #666; font-size:20px; line-height:20px; color:#fff; font-weight:bold; letter-spacing:-0.6px;}
+#con2_bg p.people{position:relative; padding-top:10px; font-size:16px; letter-spacing:-0.4px; color:#ffddd1;}
+/* join */
+
+#copyRight{position: relative; width:100%; height: 60px; background-color: rgb(99, 100, 103); font-size: 12px; color: rgb(255, 255, 255); padding: 3px 0px 0px 0px; text-align: center; margin: 0px auto;}
+
+
+
+
+input:-webkit-autofill { transition: background-color 5000s ease-in-out 0s; transition: color rgb(100,30,40,0);}
+
+
+input:-moz-placeholder{font-weight:normal; color:#4a3e38;}
+::-webkit-input-placeholder{font-weight:normal; color:#4a3e38;}
+::-moz-placeholder{font-weight:normal; color:#4a3e38;}
+:-ms-input-placeholder{font-weight:normal; color:#4a3e38;}
+
+@media (min-width:360px) {
+		#loginWrap{height:577px}
+        #con2_bg{padding:30px 0;}
+		#y_logo img{padding:55px 0 50px 0;}
+
+}
+
+@media (min-width:375px) {
+		#loginWrap{height:603px;}
+        #con2_bg{padding:40px 0;}
+        #y_logo img{padding:60px 0 50px 0;}
+
+}
+
+@media (min-width:412px) {
+		#loginWrap{height:669px;}
+        #con2_bg{padding:60px 0;}
+}
+
+@media (min-width:414px) {
+		#loginWrap{height:673px;}
+}
+
+@media (min-width:600px) {
+		#loginWrap{height:897px;}
+}
+
+@media (min-width:718px) {
+		#loginWrap{width:718px; height:1280px; margin:0 auto;}
+		#con2_bg{padding:80px 0;}
+        #con2_bg .join_btn a{padding:40px 0; box-sizing:52px;}
+        .social_lg{padding-top:70px;}
+        #y_logo img{padding:140px 0 100px 0;}
+		#copyRight{width:718px;}
+}
+
+@media (min-width:768px) {
+		#loginWrap{width:768px; height:961px;}
+		#copyRight{width:768px;}
+        
+}
+
+</style>
+<div id="loginWrap">
+	<div id="y_logo">
+		<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/new_login/logo_yby.png" width="119" height="39">
+	</div>
+	<div id="content1">
+		<div class="input_id" style="display: none;">
+			<form name="flogin" id="flogin" method="post" action="http://devm-cuteohj.yeoboya.com/?chnl=cont&amp;dest=login_check" onSubmit="return flogin_submit(this);">
+     	<div class="id_box_1">
+       	<span class="input_row1">
+					<input type="text" name="mailId" id="mailId" class="inputBox" placeholder="아이디">
+        </span>
+    	</div>
+			<p class="mail">@</p>
+			<div id="chrgMailDomain" class="select_box">
+				<label name="mail_d"></label>
+				<select name="mailDomain" id="mailDomain" class="mail_d" onChange="$.mailDominChrg(this);">
+										<option value="naver.com">naver.com</option>
+										<option value="nate.com">nate.com</option>
+										<option value="daum.net">daum.net</option>
+										<option value="hanmail.net">hanmail.net</option>
+										<option value="gmail.com">gmail.com</option>
+										<option value="T">직접입력</option>
+				</select>
+      </div>
+    </form></div>
+		<div class="input_id2" style="display: block;">
+			<span class="input_row2">
+				<input type="text" name="memId" id="memId" class="inputBox" placeholder="이메일" value="">
+				<a href="javascript:void(0)" id="memIdClose"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/new_login/btn_delete.png" width="10" height="10" class="delete_id2"></a>
+			</span>
+		</div>
+    <div class="input_pw">
+			<span class="pw_box">
+    		<input type="password" name="memPw" id="memPw" class="join_pass" placeholder="비밀번호">
+			</span>
+    </div>
+    <div class="input_btn">
+    	<input type="submit" class="btn_login" value="로그인">
+    </div>
+    <div class="etc_menu">
+        <a href="javascript:$.goFindEmail();"><span class="find_info">이메일·비밀번호 찾기</span></a>
+        |
+      <a href="javascript:$.goHelpDesk();"><span class="customer_center">고객센터</span></a>
+    </div>
+	  <input type="hidden" id="fmenu" value="45">
+	<div class="social_lg">
+        <div class="sc_nv"><a href="#">네이버 로그인</a></div>
+        <div class="sc_kko"><a href="#">카카오 로그인</a></div>
+        <p>※ 별도의 회원가입없이 네이버/카카오 아이디로 여보야 이용가능 합니다</p>
+	</div>  
+  </div>
+  <div id="con2_bg">
+  	<div class="join_btn"><a href="javascript:$.goRegist();">무료회원가입</a></div>
+      <p class="people">오늘 활동회원 : <b>17,902명</b></p>  </div>
+</div>
+<div id="copyRight">
+	(주)인포렉스 대표이사 박진. 사업자등록번호 409-81-49209<br>
+	광주광역시 서구 마륵동 165-27. 문의전화 1522-3379<br>
+	결혼중개신고번호 광주-서구-국내-15-0003호
+</div>
+<script>
+(function($) {
+	if($isApp) {
+		$(document).on('WebViewJavascriptBridgeReady', function() {
+			$.setStateLogin('0');
+		});
+	}
+
+	$(window).load(function(){
+			var wWidth = parseInt($(window).width());
+		  var wHeight = parseInt($(window).height());
+			if(wHeight > 1280) wHeight = 1280;
+			if(wWidth > 720) wWidth = 720;
+
+			//$(".people").text(wWidth + '/' + wHeight);
+	});
+
+  var $tempMailDomain = '';
+
+	if(typeof(Storage) !== "undefined") {
+		if(localStorage.loginId) {
+			$(".input_id").hide();
+			$("#mailId").val('');
+			$("#mailDomain").val('hanmail.net');
+
+			$("#memId").val(localStorage.loginId);
+			$(".input_id2").show();
+		}
+	}
+
+	// email domin change
+	$.mailDominChrg = function(obj) {
+		var $this = $(obj);
+
+		if($this.val() == 'T') {
+			$tempMailDomain = $("#chrgMailDomain").html();
+
+			$("#chrgMailDomain").html('<input type="text" name="mailDomain" id="mailDomain" class="inputBox2" value=""><a href="javascript:void(0)" onclick="$.mailDomainClose();" id="mailDomainClose" class="form_x"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/new_login/btn_delete.png" width="10" height="10" class="delete_id3"></a>');
+			$("#mailDomain").focus();
+		}
+	}
+
+	// mail domain close
+	$.mailDomainClose = function() {
+		$("#chrgMailDomain").html($tempMailDomain);
+	}
+
+	$("#memIdClose").click(function() {
+		if(typeof(Storage) !== "undefined") {
+			localStorage.removeItem('loginId');
+		}
+
+		$(".input_id2").hide();
+		$("#mailId").val('');
+		$("#mailDomain").val('hanmail.net');
+		$(".input_id").show();
+	});
+}(jQuery));
+
+function flogin_submit(f) {
+	var $form = $(f);
+
+	var rMemId = '';
+	// first form 구분
+	if($('.input_id').is(':visible')) {
+		// 입력여부
+		if($.trim($('#mailId').val()) == '') {
+			$.alert('이메일을 입력해 주세요.');
+			return false;
+		}
+
+		rMemId = $.trim($('#mailId').val()) + '@' + $('#mailDomain').val();
+	}
+
+	// second form 구분
+	if($('.input_id2').is(':visible')) {
+		// 입력여부
+		if($.trim($('#memId').val()) == '') {
+			$.alert('이메일을 입력해 주세요.');
+			return false;
+		}
+
+		rMemId = $.trim($('#memId').val());
+	}
+
+	// 이메일 주소 검증
+	var pattern = /([0-9a-zA-Z_-]+)@([0-9a-zA-Z_-]+)\.([0-9a-zA-Z_-]+)/;
+  if (!pattern.test(rMemId)) {
+		$.alert('입력하신 이메일이 올바르지 않습니다.<br>다시 입력하여주세요.');
+		return false;
+	}
+
+	// 비밀번호 입력 여부
+	var rMemPw = $.trim($('#memPw').val());
+	if(rMemPw == '') {
+		$.alert('비밀번호를 입력해 주세요.');
+		return false;
+	}
+
+	if(rMemPw.length > 20) {
+		$.alert('비밀번호는 20자를 넘을 수 없습니다.<br>다시 입력해 주세요.');
+		return false;
+	}
+
+	// ajax login -> return code
+	$.ajaxLogin(rMemId, rMemPw, null);
+	return false;
+}
+</script>
+
+<style>
+.company_ad { display:none; bottom:0; width:100%; height:auto; background-color:#636467; font-size:12px; color:#FFF;  padding:3px 0; text-align:center; }
+.posi_relative {position: relative;}
+.posi_fixed {position: fixed; }
+#btnMoveTop:focus {outline:none;}
+</style>
+
+<div id="pushFloat"></div>
+<a href="javascript:void(0);" onClick="$(this).effect('bounce',{times:3},30,function(){$.goTop();});" id="btnMoveTop"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_jump_up.png" width="35" alt=""></a>
+
+<div class="company_ad font_r posi_fixed" id="company_ad">
+(주)인포렉스 대표이사 박진. 사업자등록번호 409-81-49209<br>
+광주광역시 서구 마륵동 165-27. 문의전화 1522-3379<br>
+결혼중개신고번호 광주-서구-국내-15-0003호
+</div>
+
+
+<script>
+$(document).ready(function() {
+
+	$.hashState = 1;
+
+	// open layer use backbutton
+	$.setHash = function(hashStr) {
+		$.hashState = 2;
+		if(history.pushState) {
+			history.pushState('', document.title, '/' + location.search + hashStr);
+		}
+		if(typeof(Storage) !== "undefined") {
+			localStorage.setItem("lastHash", hashStr);
+		}
+	}
+
+	// hash action
+	$.actHash = function(hashData) {
+		$.hashState = 3;
+		switch(hashData) {
+			case '#photo_save_hash' :
+				$("#photo_save_ly").hide();
+				break;
+			case '#slctPrPhoto' :
+				$('#slctPrPhoto').hide();
+				break;
+			case '#slctProfileAttr' :
+				$.closeProfileAttr();
+				break;
+			case '#ifx-alert' :
+				$('#ifx-dialog').hide();
+				break;
+			case '#ifx-confirm' :
+				$('#ifx-dialog').hide();
+				break;
+			case '#msgReport' :
+        $('#profileReport').hide();
+        $('#msgReport').hide();
+        $('#wealthReport').hide();
+				break;
+			case '#ajaxStopID' :
+				$('#ifx-dialog').hide();
+				break;
+			case '#brokerMember' : // ----------------- 중매회원 소개
+				$("#brokerMember").remove();
+				break;
+			case '#miniProfile' : // ----------------- 미니프로필
+				$("#miniProfile").remove();
+				break;
+			case '#bgBlack' : // ----------------- 전체보기버튼 눌렀을 때 암막 2016.11.02 endy 
+				$.allMenuHide();
+				break;
+			case '#bgBlackAll' : // ----------------- 2016.11.02 endymion 전체보기버튼 눌렀을 때 암막
+				$.setNewMemAlertHide();
+				break;
+			case '#noticeOpen' :
+				$.noticeClose();
+				break;
+			case '#floating' : // ----------------- 플로팅버튼 2017.04.03 endy 
+				$('.float_wrap').removeClass('float_wrap_on');
+				$(".float_bg_modal").css({'display' : 'none'});
+				break;
+			default :
+				// 연락하기
+				if(hashData.indexOf('msg_send_ly')) {
+					var arRet = hashData.split('_');
+					$.msgCloseLayer(arRet[3]);
+				}
+
+				if(hashData.indexOf('msg_rcv_ly')) {
+					var arRet = hashData.split('_');
+					$.msgCloseLayer(arRet[3]);
+				}
+				break;
+			}
+	}
+
+	// hash chcek
+	$(window).on('hashchange', function(e) {
+		if(typeof(Storage) !== "undefined") {
+			if(window.location.hash == '') {
+				$.actHash(localStorage.lastHash);
+				localStorage.setItem("lastHash", '');
+			}
+
+			if(window.location.hash != '' && window.location.hash != localStorage.lastHash) {
+				$.actHash(localStorage.lastHash);
+				localStorage.setItem("lastHash", window.location.hash);
+			}
+		}
+	});
+
+	$(window).scroll(function() {
+		if($(window).scrollTop() > 300) {
+			$('#btnMoveTop').css({"z-index":"999","margin-bottom":"0px"}).show();
+		}
+		else {
+			$('#btnMoveTop').hide();
+		}
+	});
+
+
+});
+</script>
+
+<script>
+(function($) {
+	// user stop check
+	if($.cookie('gCCV:NO')) {
+		if($isApp) {
+			$(document).on('WebViewJavascriptBridgeReady', function() {
+				$.userStopChk('userStop');
+			});
+		}
+		else {
+			$.userStopChk('userStop');
+		}
+	}
+}(jQuery));
+</script>
+
+<script type="text/javascript" src="http://wcs.naver.net/wcslog.js"></script>
+<script type="text/javascript">
+if(!wcs_add) var wcs_add = {};
+wcs_add["wa"] = "20807a7d901ae4";
+wcs_do();
+</script>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-65223325-2', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+<div style="position:absolute; left:0; top:0; z-index:100; height:45px; width:0px;"><select id="testDomain" style="width: 20px; margin-left: 4px; margin-top: 8px;"><option value="http://m.yeoboya.com">실서버</option><option value="http://devm-marine.yeoboya.com">윤희안</option><option value="http://devm-ag315.yeoboya.com">유종철</option><option value="http://devm-osban.yeoboya.com">임재송</option><option value="http://devm-tiz.yeoboya.com">박찬경</option><option value="http://devm-dex.yeoboya.com">하민철</option><option value="http://devm-pogus55.yeoboya.com">송영호</option><option value="http://devm-kossy2k.yeoboya.com">고성수</option><option value="http://devm-cuteohj.yeoboya.com" selected="selected">오현지</option><option value="http://devm-ironynet.yeoboya.com">김훈</option><option value="http://devm-lynone.yeoboya.com">이영남</option><option value="http://devm-gree17.yeoboya.com">오승열</option><option value="http://devm-endymion.yeoboya.com">윤민수</option><option value="http://devm-yupitereu.yeoboya.com">한민구</option><option value="">Logout</option><option value="http://devm.yeoboya.com/etc/cookie/cookie.html">viewCookie</option></select></div></body></html>
